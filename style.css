@@ -5,5 +5,9 @@ body {
 .table-container {
   background-color:white;
   align-items: center;
+  padding:20px;
+}
+h1{
+  text-align:center;
 
 }
