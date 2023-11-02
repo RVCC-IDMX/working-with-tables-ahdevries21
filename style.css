@@ -1,13 +1,54 @@
 body {
   background-image:url(IMG/wallpaper-02.png);
   background-size:cover;
+  padding-left:100px;
+  padding-right:100px;
+  padding-bottom:100px;
+  padding-top:50px;
 }
 .table-container {
-  background-color:white;
-  align-items: center;
-  padding:20px;
+  background-color:black;
+  justify-content: center;
+  flex-direction: column;
+  border:9px groove #3B0078;
+  align-items:center;
+  color:white;
 }
 h1{
   text-align:center;
-
+  font-family: 'Luckiest Guy', cursive;
+  font-size:40pt; 
 }
+
+th {
+  background-color: black;
+  color:white;
+  text-align:center;
+  flex-direction: row;
+  align-items: center;
+  rows:1;
+}
+
+th img{
+  width:50px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+tr:nth-child(even) {
+  background-color:#78FBFF;
+  color:black;
+  text-align:center;
+}
+tr:nth-child(odd) {
+  background-color: #FFFD91;
+  color:black;
+  text-align:center;
+}
+tr:hover {
+  background-color: darkblue;
+  color:white;
+}
+
